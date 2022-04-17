@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-image: url('./assets/bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app span {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 583px;
+  background: rgba(235, 235, 235, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.9px);
+  -webkit-backdrop-filter: blur(7.9px);
+  padding: 1px;
+}
+
+
+/* Tob Bar Classes */
+
+.topBar {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topBar span {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.topBar .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBar .controls button {
+  width: 50px;
+  height: 100%;
+  background-color: transparent;
+  font-size: large;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.topBar .controls button:hover {
+  background-color: rgba(245,248,239, 0.4);
+}
+
+.topBar .controls .close:hover {
+  background-color: rgba(255, 0, 0, 0.776) !important;
+}
+
+/* Result Screen Classes */
+
+.screen {
+  color: black;
+  width: 100%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.screen .operators {
+  font-weight: 400;
+  font-size: large;
+  opacity: 0.8;
+}
+
+.screen .result {
+  font-weight: 700;
+  font-size: xx-large;
+  position: absolute;
+  left: 0px;
+
+}
+
+.screen .currentNumber {
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+
+.screen span {
+  margin-right: 10px;
+}
+
+
+.keys {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyBox{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.operators{
+  display: flex;
+  flex-direction: column;
+}
