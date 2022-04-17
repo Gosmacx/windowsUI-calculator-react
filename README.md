@@ -95,11 +95,11 @@ Tam Bu Sırada:
   ```
   - eğer tekrar sonuç(=) butonuna basılırsa firstNumber'a result set edilir. İşlem tekrar hesaplanıp tekrar sonuç gösterilir. Bu sonsuza kadar devam edebilir:
   
-![ss](https://gcdnb.pbrd.co/images/tiTPtMuCeXPU.png?o=1)
+![ss](https://gcdnb.pbrd.co/images/Cxntx3vVzj5l.png?o=1) ![ss](https://gcdnb.pbrd.co/images/29NaCHa9Lr33.png?o=1)
 
   - eğer tekrar bir işlem(+) tuşuna basılrısa firstNumber'a result set edilir hemen ardından secondNumber ve result sıfırlanır artık yeni işleme devam edilebilr.
 
-![ss](https://gcdnb.pbrd.co/images/YeolBNw7ImbH.png?o=1)
+![ss](https://gcdnb.pbrd.co/images/IyWAONgYkcAH.png?o=1) ![ss](https://gcdnb.pbrd.co/images/2u22NE6iG7m3.png?o=1)
 
 <br>
 <br>
