@@ -93,9 +93,16 @@ Tam Bu Sırada:
     } 
   }, [currentNumber])
   ```
+  
+![ss](https://gcdnb.pbrd.co/images/vLu3PuoosomJ.png?o=1) ![ss](https://gcdnb.pbrd.co/images/mkz3ncWY5RSf.png?o=1)
+  
+  <br>
+  
   - eğer tekrar sonuç(=) butonuna basılırsa firstNumber'a result set edilir. İşlem tekrar hesaplanıp tekrar sonuç gösterilir. Bu sonsuza kadar devam edebilir:
   
 ![ss](https://gcdnb.pbrd.co/images/Cxntx3vVzj5l.png?o=1) ![ss](https://gcdnb.pbrd.co/images/29NaCHa9Lr33.png?o=1)
+
+<br>
 
   - eğer tekrar bir işlem(+) tuşuna basılrısa firstNumber'a result set edilir hemen ardından secondNumber ve result sıfırlanır artık yeni işleme devam edilebilr.
 
