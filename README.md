@@ -25,7 +25,7 @@ ve bu state eğer result yoksa ekranda gösterilmektedir:
 <br>
 
 ## operatorChanger 
-Herhangi bir işleme bastığımızda anlık olarak yazdığımız
+Herhangi bir işleme bastığımızda `currentNumber`
 sayımız `firstNumber` state'ine işleniyor ve anlık rakam
 0'a çekiliyor.
 
