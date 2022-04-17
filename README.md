@@ -46,7 +46,7 @@ Dom'da bir işleme basıldığı için firstNumber'ımız artık
 ekranda gözüküyor. Program artık yazacağımız ikinci sayı
 için beklemekte.
 
-![ss](https://gcdnb.pbrd.co/images/WSKc4E7itggC.png?o=1)
+![ss](https://gcdnb.pbrd.co/images/M13ZQEmBPEpR.png?o=1)
 
 ```jsx
   <span className='operators' >
