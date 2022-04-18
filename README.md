@@ -59,7 +59,7 @@ için beklemekte.
 <br>
 
 ## getResult
-Eğer ikinci bir sayı tuşlayıp sonuç butonuna basarsak firstNumber ile currentNumber hesaplanıp sonuç elde edilir. İşlem sonlandığı için artık secondNumber'a currentNumber set edilir. Elimizde bir sonlanmış işlem olduğu için Dom'da currentNumber yerine sonuç gösterilir.
+Eğer ikinci bir sayı tuşlayıp sonuç butonuna basarsak `firstNumber` ile currentNumber hesaplanıp sonuç elde edilir. İşlem sonlandığı için artık secondNumber'a currentNumber set edilir. Elimizde bir sonlanmış işlem olduğu için Dom'da currentNumber yerine sonuç gösterilir.
 ```jsx
   const getResult = async (num) => {
     if (!currentOp || !currentNumber) return
