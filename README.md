@@ -4,11 +4,11 @@
 
 ## State
 ```js
-  const [firstNumber, setFirst] = useState(null)
-  const [secondNumber, setSecond] = useState(null)
-  const [currentNumber, setNumber] = useState(0)
-  const [result, setResult] = useState(null)
-  const [currentOp, setOp] = useState(null)
+  const [firstNumber, setFirst] = useState(null) // The first number set.
+  const [secondNumber, setSecond] = useState(null) // The second number set.
+  const [currentNumber, setNumber] = useState(0) // This is the instant written number.
+  const [result, setResult] = useState(null) // Result of operation with firstNumber and secondNumber
+  const [currentOp, setOp] = useState(null) // Operation type
 ```
 
 <br>
