@@ -113,10 +113,23 @@ function App() {
   }
 
   const backspace = (current) => {
-    setNumber(() => {
-      if (current.length == 1 || current == 0) return 0
-      else return current.slice(0, -1)
-    })
+    
+    let _number = current.toString()
+
+    if (result) {
+      console.log("Ben çalıştım")
+      setResult(() => {
+        if (_number.length == 1 || _number == 0) return 0
+        else return _number.slice(0, -1)
+      })
+    } else if (currentNumber) {
+      console.log("Sen çalıştın")
+      setNumber(() => {
+        if (_number.length == 1 || _number == 0) return 0
+        else return _number.slice(0, -1)
+      })
+    }
+
   }
 
   return (
@@ -168,7 +181,7 @@ function App() {
           </div>
 
           <div id='rightBox' className='operators' >
-              <button onClick={() => backspace(currentNumber)} className='key thin large opacity' >⌫</button>
+              <button onClick={() => backspace(result ?? currentNumber)} className='key thin large opacity' >⌫</button>
               <button onClick={() => operatorChanger('/')} className='key thin large opacity size' >÷</button>
               <button onClick={() => operatorChanger('*')} className='key thin large opacity size' >X</button>
               <button onClick={() => operatorChanger('-')} className='key thin large opacity size' >-</button>
