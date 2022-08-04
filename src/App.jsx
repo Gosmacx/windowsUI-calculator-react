@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import './App.css'
-import './buttons.css'
 function App() {
 
   const [firstNumber, setFirst] = useState(null)
